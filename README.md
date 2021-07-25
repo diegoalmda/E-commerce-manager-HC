@@ -19,4 +19,4 @@ Abra [http://localhost:3000](http://localhost:3000) .
 
 ## Publicação
 
-App publicado para consulta no endereço: [https://60fde909f7968b3450ad0e21--gerenciador-e-commerce.netlify.app/](Gerenciador de E-commerce)
+App publicado para consulta no endereço: [https://60fde909f7968b3450ad0e21--gerenciador-e-commerce.netlify.app/] (Gerenciador de E-commerce)

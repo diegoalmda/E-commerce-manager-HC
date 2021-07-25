@@ -15,4 +15,8 @@ Logo após será possível rodar o projeto a partir do comando:
 ### `npm start`
 
 A aplicação irá rodar no.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Abra [http://localhost:3000](http://localhost:3000) .
+
+## Publicação
+
+App publicado para consulta no endereço: [https://60fde909f7968b3450ad0e21--gerenciador-e-commerce.netlify.app/](Gerenciador de E-commerce)

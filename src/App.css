@@ -1,38 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+nav {
+  width: 20rem;
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+nav .navigation {
+  height: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+}
+
+nav img {
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+.App-header {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 1.5rem;
+  color: #282c34;
+  background-color: #74a2fd;
+  padding: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-content {
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+
+.home-content p {
+  margin: 3rem 2rem 5rem 2rem;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.buttons .nav-button:first-child {
+  margin-right: 3rem;
+}
+
+.nav-button {
+  margin-bottom: 15rem;
+}
+
+.nav-button a {
+  font-size: 2rem;
+  text-decoration: none;
+  background-color: #74a2fd;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: 2px solid #74a2fd;
+}
+
+.nav-button a:hover {
+  border: 2px solid #74a2fd;
+  background-color: #fff;
+  color: #282c34;
+}
+
+.container-clients h1 {
+  margin-bottom: 3rem;
+}
+
+.clients-edit table {
+  margin-bottom: 3rem;
+}
+
+.clients-edit table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.clients-edit th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+.clients-edit .newItem,
+.clients-edit .delete,
+.clients-edit .edit {
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  border-color: #fff;
+  outline: none;
+}
+
+.clients-edit .newItem {
+  background-color: #032558;
+  cursor: pointer;
+}
+
+.clients-edit .edit {
+  background-color: #035854;
+  cursor: pointer;
+}
+
+.clients-edit .delete {
+  background-color: #580318;
+  cursor: pointer;
+}
+
+.save-element {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 2rem 0;
+}
+
+.save-element input[type="text"] {
+  margin: 1rem 0;
+  padding: 0.5rem 0.2rem;
+}
+
+.save-element button {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #74a2fd;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: 2px solid #74a2fd;
+}
+
+.save-element button:hover {
+  border: 2px solid #74a2fd;
+  background-color: #fff;
+  color: #282c34;
+}
+
+footer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #74a2fd;
 }
